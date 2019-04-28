@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
     // アバターの画像を表示する
     private fun setImage(gitHubUser: GitHubUser) {
         Glide.with(CoroutineApplication.applicationContext())
-                .load(gitHubUser.avatar_url)
+                .load(gitHubUser.avatarUrl)
                 .into(imageView)
     }
 }

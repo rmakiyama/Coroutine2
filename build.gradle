@@ -27,6 +27,7 @@ ext {
     CoroutineVersion = '1.1.1'
     CoroutineAdapterVersion = '0.9.2'
     RetrofitVersion = '2.5.0'
+    MoshiVersion = '1.8.0'
     TimberVersion = '4.7.1'
     GlideVersion = '4.9.0'
     ButterKnifeVersion = '10.1.0'

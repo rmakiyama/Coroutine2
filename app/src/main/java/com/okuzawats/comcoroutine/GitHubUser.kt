@@ -1,10 +1,12 @@
 package com.okuzawats.comcoroutine
 
-import com.google.gson.annotations.SerializedName
+import com.squareup.moshi.Json
+import com.squareup.moshi.JsonClass
 
+@JsonClass(generateAdapter = true)
 data class GitHubUser(
         val name: String,
         val id: String,
-        @SerializedName("avatar_url")
+        @Json(name = "avatar_url")
         val avatarUrl: String
 )

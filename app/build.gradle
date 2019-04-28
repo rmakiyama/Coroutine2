@@ -55,7 +55,6 @@ dependencies {
 
     // Retrofit2
     implementation "com.squareup.retrofit2:retrofit:${RetrofitVersion}"
-    implementation "com.squareup.retrofit2:converter-moshi:${RetrofitVersion}"
     implementation "com.squareup.retrofit2:converter-gson:${RetrofitVersion}"
 
     // Glide
